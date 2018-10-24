@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  roles:
+     - ansible-grafana
+     - telegraf
+     - ansible-role-influxdb
+      	
